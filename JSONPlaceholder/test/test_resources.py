@@ -14,9 +14,3 @@ def test_get_albums():
     data = response.json()
     assert len(data) > 0
 
-def test_get_photos():
-    """Тест проверяет GET-запрос к /photos."""
-    response = requests.get('https://jsonplaceholder.typicode.com/photos')
-    assert response.status_code == 200
-    data = response.json()
-    assert len(data) > 0

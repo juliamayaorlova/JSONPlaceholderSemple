@@ -39,4 +39,6 @@ env/
 JSONPlaceholder/
 
 .gigacode
+test_main_backup.py
+test_api_backup.py
 
